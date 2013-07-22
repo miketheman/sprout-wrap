@@ -1,5 +1,9 @@
 # sprout-wrap
 
+# NOTE:
+This branch (`develop`) is my personal modifications to the upstream/master branch from `pivotal-sprout`.
+Pull requests for fixes upstream will be branched off `master`, merged into `develop`.
+
 [![Build Status](https://travis-ci.org/pivotal-sprout/sprout-wrap.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-wrap)
 
 Prepares a Mac running OS X Mountain Lion for Ruby development using [soloist](https://github.com/mkocher/soloist) and [Sprout](https://github.com/pivotal-sprout/sprout)
