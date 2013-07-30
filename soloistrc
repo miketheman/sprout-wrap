@@ -1,10 +1,29 @@
 recipes:
 - meta::osx_base
-- meta::osx_development
-- meta::ruby_development
-- pivotal_workstation::git_projects
+- meta::mikes_picks
 node_attributes:
+  bash_it:
+    theme: bobby
+  dock_preferences:
+    -
+      - orientation: right
+      - autohide: true
+      - magnification: true
+  git_pairs_authors:
+    - initials: mf
+      name: Mike Fiedler
+      shortname: miketheman
+  git_pairs_domain: gmail.com
   git_projects:
     -
       - sprout-wrap
       - https://github.com/miketheman/sprout-wrap.git
+  rvm:
+    rubies:
+      ruby-1.8.7-p371:
+        env: CC=gcc-4.2
+      ruby-1.9.3-p448:
+        command_line_options: --verify-downloads 1
+      ruby-2.0.0-p247:
+        command_line_options: --verify-downloads 1
+    default_ruby: ruby-1.9.3-p448
