@@ -22,7 +22,7 @@ include_recipe "sprout-osx-apps::node_js"
 include_recipe "pivotal_workstation::qt"
 # custom stuffs
 include_recipe "pivotal_workstation::ec2_api_tools"
-include_recipe "pivotal_workstation::locate_on.rb"
+include_recipe "pivotal_workstation::locate_on"
 include_recipe "sprout-osx-apps::heroku_toolbelt"
 include_recipe "sprout-osx-apps::hipchat"
 include_recipe "sprout-osx-apps::hub"
