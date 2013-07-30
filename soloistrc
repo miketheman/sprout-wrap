@@ -4,6 +4,27 @@ recipes:
 node_attributes:
   bash_it:
     theme: bobby
+    enabled_plugins:
+      aliases:
+        - bundler
+        - general
+        - git
+        - heroku
+        - homebrew
+        - rails
+        - textmate
+        - vim
+      completion:
+        - brew
+        - defaults
+        - gem
+        - git
+        - pip
+        - rake
+        - ssh
+      plugins:
+        - ssh
+        - vagrant
   dock_preferences:
     -
       - orientation: right
