@@ -1,3 +1,5 @@
+include_recipe 'sprout-osx-apps::menumeters'
+
 # Set clock style
 # {  DateFormat = "EEE MMM d  H:mm";
 #   FlashDateSeparators = :false;
