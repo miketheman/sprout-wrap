@@ -20,7 +20,7 @@ include_recipe "pivotal_workstation::postgres"
 include_recipe "sprout-osx-apps::imagemagick"
 include_recipe "sprout-osx-apps::node_js"
 include_recipe "pivotal_workstation::qt"
-# custom stuffs
+# custom additions from sprout
 include_recipe "pivotal_workstation::ec2_api_tools"
 include_recipe "pivotal_workstation::locate_on"
 include_recipe "sprout-osx-apps::heroku_toolbelt"
@@ -31,5 +31,11 @@ include_recipe "sprout-osx-apps::tig"
 include_recipe "sprout-osx-apps::vlc"
 include_recipe "sprout-osx-settings::dock_preferences"
 include_recipe "sprout-osx-settings::finder_display_full_path"
+# my stuff
+include_recipe "miketheman::rescuetime"
+
 include_recipe "miketheman::gitconfig"
 include_recipe "miketheman::textual_theme"
+
+include_recipe "miketheman::ssh_keys"
+include_recipe "miketheman::my_preferences"
