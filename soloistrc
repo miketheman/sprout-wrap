@@ -25,15 +25,14 @@ node_attributes:
       plugins:
         - ssh
         - vagrant
+      custom_plugins:
+        sprout-osx-base:
+          - bash_it/custom/disable_ctrl-s_output_control.bash
+          - bash_it/custom/enable_ctrl-o_history_execution.bash
   dock_preferences:
     orientation: right
     autohide: true
     magnification: true
-  git_pairs_authors:
-    - initials: mf
-      name: Mike Fiedler
-      shortname: miketheman
-  git_pairs_domain: gmail.com
   git_projects:
     -
       - sprout-wrap
