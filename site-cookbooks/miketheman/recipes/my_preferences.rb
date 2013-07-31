@@ -1,5 +1,3 @@
-include_recipe 'sprout-osx-apps::menumeters'
-
 # Set clock style
 # {  DateFormat = "EEE MMM d  H:mm";
 #   FlashDateSeparators = :false;
@@ -17,13 +15,11 @@ osx_defaults "set CPU display as Average over multi Procs" do
   domain "com.ragingmenace.MenuMeters.plist"
   key "CPUAverageMultiProcs"
   boolean true
-  notifies :run, 'execute[Restart SystemUIServer]', :delayed
 end
 osx_defaults "set network display as Arrows & Graph" do
   domain "com.ragingmenace.MenuMeters.plist"
   key "NetDisplayMode"
   integer 5
-  notifies :run, 'execute[Restart SystemUIServer]', :delayed
 end
 
 # Ask for password 1 minute after screensaver starts
