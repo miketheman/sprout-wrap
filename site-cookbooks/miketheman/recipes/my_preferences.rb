@@ -20,7 +20,7 @@ end
 osx_defaults "set network display as Arrows & Graph" do
   domain "com.ragingmenace.MenuMeters.plist"
   key "NetDisplayMode"
-  int 5
+  integer 5
   notifies :run, 'execute[Restart SystemUIServer]', :delayed
 end
 
@@ -28,5 +28,5 @@ end
 osx_defaults "set screensaver" do
   domain "com.apple.screensaver"
   key "askForPasswordDelay"
-  int 60
+  integer 60
 end
