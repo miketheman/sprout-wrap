@@ -3,10 +3,11 @@
 #   FlashDateSeparators = :false;
 #   IsAnalog = :false;
 # }
+# This will fail first time around as it needs to be generated externally
 osx_defaults "set my clock preference" do
   domain "com.apple.menuextra.clock.plist"
   key "DateFormat"
-  string "EEE MMM d  H:mm"
+  string "'EEE MMM d  H:mm'"
 end
 
 # MenuMeters settings.
