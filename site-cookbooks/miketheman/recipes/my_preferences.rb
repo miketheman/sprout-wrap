@@ -29,3 +29,9 @@ osx_defaults "set screensaver" do
   key "askForPasswordDelay"
   integer 60
 end
+
+osx_defaults "allow keyboard to navigate dialogs" do
+  domain "/Users/#{node['current_user']}/Library/Preferences/.GlobalPreferences"
+  key "AppleKeyboardUIMode"
+  integer 2
+end
