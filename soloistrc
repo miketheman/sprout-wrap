@@ -33,10 +33,6 @@ node_attributes:
     orientation: right
     autohide: true
     magnification: true
-  git_projects:
-    -
-      - sprout-wrap
-      - https://github.com/miketheman/sprout-wrap.git
   rvm:
     rubies:
       ruby-1.8.7-p374:
