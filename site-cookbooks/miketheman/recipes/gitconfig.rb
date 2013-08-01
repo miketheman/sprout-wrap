@@ -1,5 +1,5 @@
 execute "set user.name" do
-  command "git config --global user.name Mike Fiedler"
+  command "git config --global user.name 'Mike Fiedler'"
   user node['current_user']
 end
 
