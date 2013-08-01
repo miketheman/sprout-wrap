@@ -12,8 +12,6 @@ Personal stuffs
         cd ~/Library/Application\ Support/TextMate/Themes/WebPreview
         git clone git://github.com/kneath/github_textmate_preview.git github
 
-- python pip and virtualenv stuff
-
 ## Maybe?
 
 - VMware Fusion?
@@ -26,3 +24,5 @@ Personal stuffs
 
 - Hamachi install - This needs a secure download, and can't run automatically
 - osx_defaults attributes that have deep nested structures, like `com.apple.LaunchServices.plist` file handlers
+- `sudo easy_install pip`
+- `sudo pip install virtualenvwrapper`
