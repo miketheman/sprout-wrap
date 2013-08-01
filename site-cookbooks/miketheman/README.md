@@ -6,7 +6,6 @@ Personal stuffs
 
 - dock tilesize = 30
 - any finder preferences in com.apple.finder.plist
-- chefvm (and prompt)
 - textmate github flavored preview, from [here](https://github.com/kneath/github_textmate_preview)
 
         mkdir -p ~/Library/Application\ Support/TextMate/Themes/WebPreview

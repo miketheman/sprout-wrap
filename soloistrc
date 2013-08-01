@@ -31,6 +31,8 @@ node_attributes:
       sprout-osx-base:
         - bash_it/custom/disable_ctrl-s_output_control.bash
         - bash_it/custom/enable_ctrl-o_history_execution.bash
+      miketheman:
+        - bash_it/custom/chefvm_init.bash
   dock_preferences:
     orientation: right
     autohide: true

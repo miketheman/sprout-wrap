@@ -31,6 +31,7 @@ include_recipe "sprout-osx-apps::vlc"
 include_recipe "sprout-osx-settings::dock_preferences"
 include_recipe "sprout-osx-settings::finder_display_full_path"
 # my stuff
+include_recipe "miketheman::chefvm"
 include_recipe "miketheman::rescuetime"
 
 include_recipe "miketheman::gitconfig"
