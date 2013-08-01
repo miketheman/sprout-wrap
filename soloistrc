@@ -23,8 +23,10 @@ node_attributes:
         - rake
         - ssh
       plugins:
+        - base
         - ssh
         - vagrant
+        - virtualenv
     custom_plugins:
       sprout-osx-base:
         - bash_it/custom/disable_ctrl-s_output_control.bash
