@@ -3,7 +3,7 @@ recipes:
 - meta::mikes_picks
 node_attributes:
   bash_it:
-    theme: bobby
+    theme: miketheman
     enabled_plugins:
       aliases:
         - bundler

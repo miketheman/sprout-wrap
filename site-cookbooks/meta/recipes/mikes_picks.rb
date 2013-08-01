@@ -38,3 +38,4 @@ include_recipe "miketheman::textual_theme"
 
 include_recipe "miketheman::ssh_keys"
 include_recipe "miketheman::my_preferences"
+include_recipe "miketheman::prompt"
