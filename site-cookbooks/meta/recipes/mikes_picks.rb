@@ -11,7 +11,6 @@ include_recipe "sprout-osx-apps::vagrant"
 include_recipe "pivotal_workstation::vim"
 include_recipe "pivotal_workstation::vim_config"
 include_recipe "sprout-osx-apps::virtualbox"
-include_recipe "pivotal_workstation::workspace_directory"
 # from ruby_development
 include_recipe "pivotal_workstation::rvm"
 include_recipe "pivotal_workstation::gem_setup"
