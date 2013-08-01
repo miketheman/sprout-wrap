@@ -33,6 +33,7 @@ node_attributes:
         - bash_it/custom/enable_ctrl-o_history_execution.bash
       miketheman:
         - bash_it/custom/chefvm_init.bash
+        - bash_it/custom/my_aliases.bash
   dock_preferences:
     orientation: right
     autohide: true
