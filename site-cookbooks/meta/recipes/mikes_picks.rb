@@ -35,6 +35,7 @@ include_recipe "miketheman::chefvm"
 include_recipe "miketheman::rescuetime"
 
 include_recipe "miketheman::gitconfig"
+include_recipe "miketheman::textmate_custom"
 include_recipe "miketheman::textual_theme"
 
 include_recipe "miketheman::ssh_keys"
