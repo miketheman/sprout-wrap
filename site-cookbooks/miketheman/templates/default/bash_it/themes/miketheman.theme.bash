@@ -30,11 +30,9 @@ function _showStatus {
   return $ret
 }
 
-# ${blue}($(chefvm current)) # <= apparently really slow
-
 function prompt_command() {
-    ret=$?
-    PS1="\n\t ${yellow}$(ruby_version_prompt) ${purple}\h ${reset_color}in ${green}\w\n${bold_cyan}$(scm_char)${green}$(scm_prompt_info) $(_showStatus $ret) ${green}→${reset_color} "
+  ret=$?
+  PS1="\n\t ${yellow}$(ruby_version_prompt) ${blue}($(chefvm current)) ${purple}\h ${reset_color}in ${green}\w\n${bold_cyan}$(scm_char)${green}$(scm_prompt_info) $(_showStatus $ret) ${green}→${reset_color} "
 }
 
 PROMPT_COMMAND=prompt_command;
