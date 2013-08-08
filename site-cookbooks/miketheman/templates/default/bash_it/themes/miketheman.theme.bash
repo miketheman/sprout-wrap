@@ -22,7 +22,7 @@ STATUS_THEME_PROMPT_OK="${green}∴"  # unicode: THEREFORE U+2234
 
 function _showStatus {
   local ret=$1
-  if `return $ret`; then
+  if [[ $ret -eq 0 ]]; then
     echo -e "$STATUS_THEME_PROMPT_OK"
   else
     echo -e "$STATUS_THEME_PROMPT_BAD"
