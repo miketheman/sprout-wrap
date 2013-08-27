@@ -35,6 +35,9 @@ include_recipe "sprout-osx-settings::finder_display_full_path"
 include_recipe "miketheman::chefvm"
 include_recipe "miketheman::rescuetime"
 
+include_recipe "miketheman::graphviz"
+include_recipe "miketheman::mtr"
+
 include_recipe "miketheman::gitconfig"
 include_recipe "miketheman::textmate_custom"
 include_recipe "miketheman::textual_theme"
