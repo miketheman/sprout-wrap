@@ -7,7 +7,7 @@ GIT
   remote: git://github.com/miketheman/sprout.git
   path: osx
   ref: develop
-  sha: 337a15e8559f77493a68d4fd66abd127f8f0b062
+  sha: 711f465803d37704065a123a8af9d84b395debc6
   specs:
     osx (0.1.0)
 
@@ -15,7 +15,7 @@ GIT
   remote: git://github.com/miketheman/sprout.git
   path: pivotal_workstation
   ref: develop
-  sha: 337a15e8559f77493a68d4fd66abd127f8f0b062
+  sha: 711f465803d37704065a123a8af9d84b395debc6
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
@@ -29,7 +29,7 @@ GIT
   remote: git://github.com/miketheman/sprout.git
   path: sprout-osx-apps
   ref: develop
-  sha: 337a15e8559f77493a68d4fd66abd127f8f0b062
+  sha: 711f465803d37704065a123a8af9d84b395debc6
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -40,7 +40,7 @@ GIT
   remote: git://github.com/miketheman/sprout.git
   path: sprout-osx-base
   ref: develop
-  sha: 337a15e8559f77493a68d4fd66abd127f8f0b062
+  sha: 711f465803d37704065a123a8af9d84b395debc6
   specs:
     sprout-osx-base (0.1.0)
 
@@ -48,7 +48,7 @@ GIT
   remote: git://github.com/miketheman/sprout.git
   path: sprout-osx-settings
   ref: develop
-  sha: 337a15e8559f77493a68d4fd66abd127f8f0b062
+  sha: 711f465803d37704065a123a8af9d84b395debc6
   specs:
     sprout-osx-settings (0.1.0)
       osx (>= 0.0.0)
@@ -58,7 +58,7 @@ GIT
   remote: git://github.com/miketheman/sprout.git
   path: sprout-pivotal
   ref: develop
-  sha: 337a15e8559f77493a68d4fd66abd127f8f0b062
+  sha: 711f465803d37704065a123a8af9d84b395debc6
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
@@ -76,7 +76,7 @@ PATH
 PATH
   remote: site-cookbooks/miketheman
   specs:
-    miketheman (0.1.0)
+    miketheman (0.2.0)
       osx (>= 0.0.0)
 
 DEPENDENCIES
