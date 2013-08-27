@@ -34,6 +34,7 @@ GIT
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
 
 GIT
   remote: git://github.com/miketheman/sprout.git
