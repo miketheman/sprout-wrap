@@ -1,5 +1,6 @@
 alias dprd='cd ~/git/datadoghq/devops && chefvm use dprd && ssh dprd'
 alias dstg='cd ~/git/datadoghq/devops && chefvm use dstg && ssh dstg'
+alias fdrp="find ~/Dropbox/ -path \"*(*'s conflicted copy [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*\" -print"
 alias gap='git add -p'
 alias gdc='git diff --cached'
 alias gdf='git diff'
